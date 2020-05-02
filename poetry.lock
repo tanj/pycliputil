@@ -116,6 +116,18 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 version = "1.14.0"
 
 [[package]]
+category = "main"
+description = "A collection of various functions and utilities that keep getting recreated"
+name = "Swiss-Army-Untility-Package"
+optional = false
+python-versions = "*"
+version = "0.1"
+
+[package.source]
+reference = "0c72140f4a07f4ed132cab85e686c231b992a3ef"
+type = "git"
+url = "https://github.com/tanj/swissarmy"
+[[package]]
 category = "dev"
 description = "Measures number of Terminal column cells of wide-character codes"
 name = "wcwidth"
@@ -124,7 +136,7 @@ python-versions = "*"
 version = "0.1.9"
 
 [metadata]
-content-hash = "95c5c30ebc3ffc24020ba27aafb74baef45ff41a2395ff89c354e90d952d9cbc"
+content-hash = "98c6333b96419f098ef673ec4764d9e35c7962dfb0c4a9a0a58d7f804b637df2"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -171,6 +183,7 @@ six = [
     {file = "six-1.14.0-py2.py3-none-any.whl", hash = "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"},
     {file = "six-1.14.0.tar.gz", hash = "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"},
 ]
+Swiss-Army-Untility-Package = []
 wcwidth = [
     {file = "wcwidth-0.1.9-py2.py3-none-any.whl", hash = "sha256:cafe2186b3c009a04067022ce1dcd79cb38d8d65ee4f4791b8888d6599d1bbe1"},
     {file = "wcwidth-0.1.9.tar.gz", hash = "sha256:ee73862862a156bf77ff92b09034fc4825dd3af9cf81bc5b360668d425f3c5f1"},
